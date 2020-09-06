@@ -6,11 +6,11 @@ var app = new Vue({
     },
     methods: {
         big: function(){
-            this.size += 10;
+            this.size += 30;
         },
         small: function(){
             if (this.size > 70) {
-                this.size -= 10
+                this.size -= 30
             }
         }
 
